@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Poll System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="header"> 
+    <h1>Thinkthrough Consulting Assignment</h1>
+</div>
+    <div class="container">
+        <h2>Your Favorite Color?</h2>
+        <form id="pollForm">
+            <input type="radio" name="color" value="0"> Red<br>
+            <input type="radio" name="color" value="1"> Blue<br>
+            <input type="radio" name="color" value="2"> Green<br>
+            <input type="radio" name="color" value="3"> Yellow<br>
+             <div class="buttons"><button type="button" onclick="submitVote()">Vote</button></div>
+        </form>
+        <canvas id="pieChart" width="400" height="400"></canvas>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

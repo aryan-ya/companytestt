@@ -1,0 +1,29 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 2px solid black;
+    margin-top: 50px;
+   
+}.header{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}h1{
+    color: red;
+    text-align: center;
+    align-items: center;
+}button{
+    padding: 10px 20px 10px 20px;
+    background-color: aqua;
+}.buttons{
+    margin-top: 20px;
+
+}input{
+    color: red;
+}
+
